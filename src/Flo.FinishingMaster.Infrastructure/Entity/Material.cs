@@ -1,10 +1,7 @@
-﻿using System;
-
-namespace Flo.FinishingMaster.Infrastructure.Entity
+﻿namespace Flo.FinishingMaster.Infrastructure.Entity
 {
-    public class Material
+    public class Material : BaseEntity
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
         public EMaterialType MaterialType { get; set; }
         public string Url { get; set; }
